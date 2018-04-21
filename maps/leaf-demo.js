@@ -22,7 +22,7 @@
 	  popupAnchor: [0, -14]
 	})
 
-	markersObjs = [markers_sur_america, markers_norte_america, markers_europa, markers_africa, markers_asia]
+	markersObjs = [markers_sur_america, markers_norte_america, markers_europa, markers_africa, markers_asia, markers_colombia]
 	var lyrs = [];
 	markersObjs.forEach(function(mrkrs){
 		var markersArray = [];
@@ -47,6 +47,7 @@
 		"Europa": lyrs[2],
 		"Africa": lyrs[3],
 		"Asia": lyrs[4],
+		"Colombia": lyrs[5]
 	};
 	
 	L.control.layers(baseMaps, overlayMaps).addTo(map);
