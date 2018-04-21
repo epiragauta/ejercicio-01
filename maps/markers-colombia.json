@@ -1,0 +1,6 @@
+markers_colombia = [ {
+	 "name": "Colombia",
+	 "url": "https://en.wikipedia.org/wiki/Colombia",
+	 "lat": 4,
+	 "lng": -75
+   }]
